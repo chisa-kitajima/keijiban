@@ -1,0 +1,121 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-selif;
+    margin: auto 0px;
+}
+
+.logo {
+    width: 250px;
+}
+
+header {
+    width: 100%;
+}
+
+header ul {
+    background-color: black;
+    line-height: 60px;
+}
+
+header li {
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    padding: 0px 40px; 
+}
+
+main {
+    width: 99%;
+    margin-left: 8px;
+    clear: left;
+}
+
+.left {
+    width: 70%;
+    float: left;
+}
+
+.left h2 {
+    border-left: 5px solid black;
+    border-bottom: 3px solid black;
+    padding-left: 8px;
+}
+
+form {
+    background-color: #fbfbfb;
+    width: 98%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    border:3px solid #ebebeb;
+    margin-bottom:20px;
+}
+
+form h4 {
+    border-left: 3px solid rgb(163, 29, 29);
+    margin-left: 10px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form input, textarea {
+    border: 3px solid #ebebeb;
+}
+
+.submit {
+    background-color: gray;
+    color: white;
+    border-color: gray;
+    border-radius: 3px;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+}
+
+.news {
+    background-color: #fbfbfb;
+    width: 98%;
+    padding: 10px 10px;
+    border:3px solid #ebebeb;
+    margin-bottom: 20px;
+}
+
+.news h3 {
+    border-bottom: 2px solid #ebebeb;
+}
+
+.contents {
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.handlename {
+    font-size: 12px;
+}
+
+.right {
+    float: left;
+    width: 25%;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.right h3 {
+    border-bottom: 2px dotted black;
+}
+
+.right ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.footer-box {
+    clear: left;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
